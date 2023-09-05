@@ -1,0 +1,137 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+  </head>
+  <style>
+    #title{
+        font-size: 30px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #menu{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #rest{
+        padding-top: 20px;
+    }
+    .navbar-nav{
+   justify-content: center;
+ 
+    }
+    .container{
+    margin: 0;
+    padding: 0;
+    float: left;
+    height: auto;
+   
+   
+    }
+    .card-img-top {
+    width: 100%;
+    height: 40vh;
+    object-fit: fill;
+    }   
+    .card:hover{
+        transform: scale(1.15);
+    }
+
+  
+    body{
+        background-image: url("https://img.freepik.com/free-photo/blurry-background-clothing-store_1203-1643.jpg?w=2000");
+    }
+    
+
+    
+  </style>
+  <body class="bg-light">
+
+    <div class="container-fluid">
+        <div class="row">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark  ">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                        
+                    </button>
+                    <div  id="menu">
+                        
+                        <div class="navbar-nav">
+                            <a class= "nav-item nav-link active" href="#" id="title">Cheshop</a>
+                            <a class= "nav-item nav-link active" href="#" id="rest">Home</a>
+                            <a class= "nav-item nav-link  active" href="#" id="rest">Men</a>
+                            <a class= "nav-item nav-link  active" href="#" id="rest">Women</a>
+                            <a class= "nav-item nav-link  active" href="#" id="rest">Sale</a>
+                            <a class= "nav-item nav-link  active" href="#" id="rest"> 
+                            <input type="text" class="form-text" value="SEARCH: Shirts, Dresses, Caps" >
+                    
+                            </a>
+    
+                        </div>
+                    </div>
+    
+                </nav>
+            </div>
+            
+               
+
+        
+
+<!-- cards -->
+
+        <div class="row my-5 justify-content-center " >
+            <div class="col-md-6 col-lg-4 col-xl-3 m-3">
+                <div class="card bg-dark h-100 " style="width: 18rem;">
+                    <img src="https://e0.pxfuel.com/wallpapers/394/201/desktop-wallpaper-mens-fashion-mens-outfits.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Men's Fashion</h5>
+                      <p class="card-text text-light">Discover the lastest Men's Fashion trends!</p>
+                      <a href="#" class="btn btn-primary">Add to cart NOW!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 m-3">
+                <div class="card bg-dark h-100" style="width: 18rem; ">
+                    <img src="https://media.istockphoto.com/id/653003428/photo/fashionable-clothes-in-a-boutique-store-in-london.jpg?s=170667a&w=0&k=20&c=F40ikbB7NTO4e9mtMGsFRNSCwDGZ9kTJPgH1hwbzyZQ=" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Women's Fashion</h5>
+                      <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn btn-primary">Add to cart NOW!</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 m-3">
+                <div class="card bg-dark h-100" style="width: 18rem;">
+                    <img src="https://i.pinimg.com/originals/51/50/80/5150804a082ef3a045392d6927c4f5ff.jpg" class="card-img-top" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title text-light">Sale!!</h5>
+                      <p class="card-text text-light">Up to 50% OFF!!!</p>
+                      <a href="#" class="btn btn-primary">Add to cart NOW!</a>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+
+<div class="row bg-dark ">
+    <h4 class="text-light my-2  ">Sign up to our newsletter!</h4>
+        <form class="my-3 bg-dark">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label  text-light">Name</label>
+              <input type="text" class="form-control " id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label  text-light">Review</label>
+              <input type="text" class="form-control" id="exampleInputPassword1">
+            </div>
+            <button type="submit" class="btn btn-primary">Send</button>
+          </form>
+        </div>
+    </div>
+  </body>
+</html>
+
+    
+    
